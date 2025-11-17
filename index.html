@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Meeting - do'stim Ulfatjon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background: #161b22;
+      padding: 15px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 1px solid #30363d;
+    }
+
+    #container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 0;
+    }
+
+    footer {
+      background: #161b22;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      border-top: 1px solid #30363d;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  🔴 Elita maktab Online Dars Xonasi
+</header>
+
+<div id="container">
+  <iframe 
+    src="https://meet.jit.si/HumanEmailsVentureMerrily#config.startWithAudioMuted=true&config.startWithVideoMuted=true"
+    allow="camera; microphone; fullscreen; display-capture"
+  ></iframe>
+</div>
+
+<footer>
+  © 2025 Ulfatjon — Meeting Platform  
+</footer>
+
+<script>
+  console.log("Meeting sahifasi yuklandi!");
+</script>
+
+</body>
+</html>
