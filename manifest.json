@@ -1,20 +1,20 @@
 {
   "name": "Ulfatjon Meeting App",
   "short_name": "Meeting",
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#0d1117",
   "theme_color": "#0d1117",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "src/icons/logo.jpg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "src/icons/logo.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpeg"
     }
   ]
 }
